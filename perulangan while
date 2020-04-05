@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+	int h = 100;
+	while (h <= 1000) {
+		if ( h % 2 == 0) {
+			cout << h << " Bilangan genap " <<endl;
+			h++;
+		} else if ( h % 2 == 1 ) {
+			cout << h << " Bilangan ganjil " <<endl;
+			h++;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main (){
+	int angka;
+	do
+	{
+		cout << endl << "===***input lebih dari 10 berhenti***===" <<endl;
+		cout << " input angka >> ";
+	}
+	while ( angka <= 10);
+}

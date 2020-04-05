@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+	int y,x;
+	cout << " Masukkan nilai awal = ";
+	cin >> y;
+	
+	cout << " Masukkan nilai akhir = ";
+	cin >> x;
+	
+	for (int h = y;h <= x;h++)
+	{
+		if (h % 2 == 0 ){
+			cout << h << " Bilangan genap " <<endl;
+		} else if ( h % 2 == 1 ) {
+			cout << h << " Bilangan ganjil " <<endl;
+		}
+	}
+}
